@@ -1,0 +1,40 @@
+      *{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+      /* Background color for body */
+      body {
+        background-color: #eeeeee;
+      }
+
+      /* Background and text color for h1 */
+      h1 {
+        background-color: #0076be;
+        color: #9a9b9c;
+        padding: 20px;
+        border-radius: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      form{
+        margin-bottom: 20px;
+        border: 20px;
+      }
+      /* Grid styling for search results */
+      #results {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+      /* Individual search result styles */
+      .result {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        background-color:#FFFFFF
+              }
+      .result a {
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .result p {
+        margin-top: 10px;
+        font-size: 14px;
+      }
