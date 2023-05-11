@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">    
+    <title>Turners with no Tina but a Tergus</title>
+    <link rel="stylesheet" href="m2Styles.css">    
+    <script src="m2search.js"></script>
+  </head>
+
+  <body>
+    <h1>Turners Search Prototype</h1>
+    <form onsubmit="event.preventDefault(); search()">                        <!--standard preventive measure-->
+      <label> 
+        Search Query:  <input type="text" id="query" name="query">
+      </label>
+      <button type="button" onclick="search()">Search</button>
+    </form>
+    <div id="results"></div>                                                                     <!--This Div is the one to be populated by the API-->
+
+  </body>
+</html>
